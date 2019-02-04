@@ -161,7 +161,7 @@ ggplot(data=df, aes(x=yaw, y=roll, color=factor(trainLabels)))+
   theme_bw()
 ```
 
-![](PML_finalAssignment_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](unnamed-chunk-8-1.png)
 
 Note that that there is a visual separation already starting to take place, although it is clear that other variables are necessary to facilitate classification, given the considerable overlap of the data points. The decrease in Gini impurity was greatest for the variable "roll\_belt" in the variable importance analysis, and it is clear that there is a separate cluster of low-roll and low-yaw cases consisting largely of class "D" and class "E" observations (half-lowering of the dumbbell and hip-throwing, respectively).
 
